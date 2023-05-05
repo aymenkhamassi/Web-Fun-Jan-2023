@@ -1,23 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 *{
+    
     padding: 0;
     margin: 0;
+    color:azure;
+    text-decoration: none;
+   
+}
+h1{
+    padding: 30px;
 }
 
 .nav{
-    
-    height: 50px;
     display: flex;
-    background-color:beige;
-    border: solid black;
-    justify-content: space-between;
-    
-    
-    
+    justify-content: space-between; 
+    align-items: center;
+    background-color:#262626b6;
+    border: 7px solid whitesmoke;
+   
 }
-.nav-title{ 
-    
- }  
 .nav-links{
-
-   align-items: end;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    list-style-type: none;
+    padding: 10px 20px;
 }
+button{
+    background-color: rgb(0, 115, 255);
+    padding: 5px 10px 5px 10px;
+    box-shadow: 0 9px 10px 0 black;
+}
+.active{
+padding-left: 20px;
+padding-right: 20px;
+}
+.btn{
+   margin:20px;
+   border: solid black;
+}
+
