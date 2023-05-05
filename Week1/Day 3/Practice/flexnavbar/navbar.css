@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    
+    height: 50px;
+    display: flex;
+    background-color:beige;
+    border: solid black;
+    justify-content: space-between;
+    
+    
+    
+}
+.nav-title{ 
+    
+ }  
+.nav-links{
+
+   align-items: end;
+}
