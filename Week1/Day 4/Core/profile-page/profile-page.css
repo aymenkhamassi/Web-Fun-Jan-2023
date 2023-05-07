@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*---------------css main program-------------------------------------*/
+
+.bloc1-bloc2{
+    display:inline-block;
+  
+
+}
+
+/* ---------------------css nav-bar ----------------------------------*/
+.nav {
+    background-color: #333333;
+    color: #ffffff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn{
+    background-color: blue;
+    color: white;
+}
+
+/*-------------------- css bloc1 -------------------------------------*/
+
+.bloc1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-left: 70px;
+    margin-top: 20px;
+   
+}
+.profile{
+    background-color:#fff;
+    width: 100%;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+   
+}
+.profile-card {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.body-card{
+    padding: 20px;
+}
+
+.body-card h1, 
+.body-card h3,
+.body-card p {
+    margin: 20px 0px;
+}
+.imageuser{
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.icon{
+    height: 20px;
+
+}
+
+a {
+    color: #3a81e6;
+}
+/* ----------------------css bloc2 -----------------------------*/
+
+.bloc2{
+    width: 500px;
+    border: 2px solid #999;
+ 
+}
+.connection{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+
+}
+.connection span{
+    border-radius: 50%;
+    background-color: grey;
+    margin: 3px;
+    padding: 3px;
+    color: black;
+ 
+}
+.connection h5{
+    text-align: center;
+    margin: 2px;
+
+}
+.partie1{
+    display: flex;
+    justify-content:space-around;
+}
+.image-profile{
+    border-radius: 50%;
+    margin: 5px;
+}
+.todd{
+    display: flex;
+    justify-content: space-between;
+}
+.phil{
+    display: flex;
+    justify-content: space-between;
+}
+.todd-phil{
+    background-color:#fff;
+}
+.icon1{
+    width: 20px;
+
+}
+.icon{
+    width: 20px;
+}
