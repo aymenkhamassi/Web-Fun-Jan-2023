@@ -141,3 +141,56 @@ a {
 .icon{
     width: 20px;
 }
+
+/*-------------------css bloc3-------------------------------------------------*/
+
+.bloc3{
+    width: 500px;
+    border: 2px solid #999;
+    margin-top: 20px;
+}
+
+.ed1{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.educ2 span{
+    color: grey;
+}
+
+.educ2  p{
+    font-size: 20px;
+    padding: 10px;
+}
+
+/*--------------------css bloc 4-------------------------------------------*/
+.part1{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+.part1 span{
+    border-radius: 50%;
+    background-color: grey;
+    margin: 3px;
+    padding: 3px;
+    color: black;
+}
+.part1{
+    display: flex;
+    justify-content:space-around;
+}
+
+.bloc4{
+    width: 500px;
+    border: 2px solid #999;
+ 
+}
+.part3{
+   border: 2px solid #999; 
+   text-align: center;
+   font-size: 20px;
+}
