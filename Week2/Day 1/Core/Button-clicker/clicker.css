@@ -24,6 +24,7 @@
     box-shadow: 2px 5px;
     height: 30px;
     font-size: 20px;
+    cursor: pointer;
     
 }
 .navbar input{
@@ -76,6 +77,7 @@
     border: solid black;
     margin: 60px;
     padding: 10px;
+    cursor: pointer;
 }
 
 .programmer1{
@@ -90,8 +92,10 @@
 }
 .practitioner1 button{
     background-color: yellow;
+    cursor: pointer;
 }
 
 .programmer1 button{
     background-color: yellow;
+    cursor: pointer;
 }
