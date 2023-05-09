@@ -13,7 +13,7 @@
             <div class="navbar">
                 <div><h2>Dojonary</h2></div>
                 <div><input type="text" id="fname" name="fname" value="search"></div>
-                <div><button>login</button></div>
+                <div><button onclick="clicked(this)">login</button></div>
             </div>
 
         <div class="container"> 
@@ -23,7 +23,7 @@
                     <h1>ninja</h1>
                     <p>noun</p><br>
                     <p>Plural:<span>ninja</span></p><br>
-                    <button>13 Likes</button>
+                    <button onclick="alert(this)">13 Likes</button>
                 </div>
                 <div class="practitioner2">
                     <p>A practitioner skilled in the <a href="#"> Japanese </a> art of <a href="#">ninjustu</a></p>
@@ -43,10 +43,10 @@
             </div>
             <div class="definition">
                 <h2>Dojonary is defined by YOU</h2>
-                <button>add definition</button>
+                <button onclick="removed(this)">add definition</button>
             </div>
         </div>
     </div>
-    
+    <script src="clicker.js"></script>
 </body>
 </html>
