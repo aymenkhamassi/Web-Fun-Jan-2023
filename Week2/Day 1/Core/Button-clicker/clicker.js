@@ -7,6 +7,3 @@ function removed(element){
     element.remove();
 }
 
-function alert(element){
-    
-}

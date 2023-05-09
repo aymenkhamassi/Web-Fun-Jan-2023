@@ -2,8 +2,9 @@
     padding: 0;
     margin: 0;
     font-size: 30px;
-    
+        
 }
+  
 .navbar{
     background-color:teal;
     font-size: 30px;
@@ -11,6 +12,10 @@
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+    
+    
+    
+    
     
 }
 .navbar button{
@@ -23,43 +28,70 @@
 }
 .navbar input{
     font-size: 20px;
-    padding-bottom: 10px;
     color: grey;
+    
 }
 .ninja1{
     background-color: azure;
     border: solid black;
-    width: 700px;
+    width: 660px;
     display: flex;
     justify-content: space-around;
     padding: 20px;
-
+    
+    
 }
 .ninja2{
     background-color: azure;
     border: solid black;
-    width: 700px;
+    width: 660px;
     display: flex;
     justify-content: space-around;
     padding: 20px;
+
+  
 }
 .definition{
     background-color: azure;
     border: solid black;
-    width: 600px;
+    width: 400px;
+    height: 200px;
+    
 }
 .container{
     display: flex;
     justify-content: space-around;
 }
 .practitioner1{
-    
+    padding: 20px;
 
 }
 .definition h2{
     text-align: center;
+    padding: 10px;
 }
 .definition button{
+    background-color: rgb(0, 128, 79);
     text-align: center;
     border: solid black;
+    margin: 60px;
+    padding: 10px;
+}
+
+.programmer1{
+    padding: 20px;
+
+}
+
+.programmer2{
+    padding: 20px;
+
+
+}
+.practitioner1 button{
+    background-color: yellow;
+}
+
+.programmer1 button{
+    background-color: yellow;
 }
