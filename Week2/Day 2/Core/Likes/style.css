@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    width: 980px;
+    margin: auto;
+    
+}
+.navbar .partie2{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.navbar .partie1{
+    padding: 20px;
+}
+
+.feed{
+    display: flex;
+    justify-content: center; 
+      
+}
+
+.avatar{
+    background-color: beige;
+    border: solid black;
+    margin-top: 20px;
+    height: 250px;
+    width: 180px;
+}
+
+.avatar img{
+    width: 70px;
+    height: 70px;
+    padding-left: 50px;
+    padding-top: 20px;
+   
+    
+}
+.avatar  p{
+    text-align: center;
+    padding: 20px;
+}
+.avatar h3{
+    text-align: center;
+    padding: 30px;
+}
+
+
+.neil{
+    background-color: beige;
+    border: solid black;
+    width: 780px;
+    height: 150px;
+    margin: 20px;
+   
+}
+
+.nicole{
+    background-color: beige;
+    border: solid black;
+    width: 780px;
+    height: 150px;
+    margin: 20px;
+}
+
+.jim{
+    background-color: beige;
+    border: solid black;
+    width: 780px;
+    height: 150px;
+    margin: 20px;
+}
+
+.neil1{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.neil1 h3,p{
+    padding: 10px;
+}
+
+.nicole1{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.nicole1 h3,p{
+    padding: 10px;
+}
+
+.jim1{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.jim1 h3,p{
+    padding: 10px;
+}
+
+.likes button{
+    background-color: yellow;
+    padding: 10px;
+    box-shadow: 5px 5px;
+    cursor: pointer;
+}
+.neil2{
+    padding: 20px;
+
+}
+.nicole2{
+    padding: 20px;
+
+}
+.jim2{
+    padding: 20px;
+
+}
