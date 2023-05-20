@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    width: 150px;
+    
+}
