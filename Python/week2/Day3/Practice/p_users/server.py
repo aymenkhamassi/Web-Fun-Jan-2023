@@ -11,12 +11,12 @@ def index():
 
 @app.route('/users')
 def users():
-    return render_template("read.html",users=User.get_all())
+    return render_template("users.html",users=User.get_all())
 
 
 @app.route('/user/new')
 def new():
-    return render_template("create.html")
+    return render_template("new_user.html")
 
 @app.route('/user/create',methods=['POST'])
 def create():
